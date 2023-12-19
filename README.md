@@ -1,76 +1,60 @@
 # Smart Townhouse Project
+
 Welcome to the Smart Townhouse project! This project aims to create an intelligent system for monitoring and controlling various aspects of a townhouse, including home and garage functionalities. The system utilizes ESP microcontrollers connected to sensors, providing real-time data and control through a Kotlin mobile app.
 
-Features
-Home Module
-Earthquake Detection:
+## Features
 
-Utilizes MPU6050 gyroscope to detect and measure seismic activity.
-Notifies users in case of an earthquake through the mobile app.
-Gas Leak Monitoring:
+### Home Module
 
-Integrates MQ-4 gas detector to measure methane/natural gas concentration.
-Sends real-time gas level data to the mobile app for monitoring.
-Temperature and Humidity Sensing:
+1. **Earthquake Detection:**
+   - Utilizes MPU6050 gyroscope to detect and measure seismic activity.
+   - Notifies users in case of an earthquake through the mobile app.
 
-Uses DHT11 sensor to measure ambient temperature and humidity.
-Displays data on an LCD screen and updates the mobile app.
-Flame Detection:
+2. **Gas Leak Monitoring:**
+   - Integrates MQ-4 gas detector to measure methane/natural gas concentration.
+   - Sends real-time gas level data to the mobile app for monitoring.
 
-Incorporates a flame sensor to detect fire incidents.
-Triggers water pump to extinguish fire and sends alerts to the mobile app.
-LCD Display:
+3. **Temperature and Humidity Sensing:**
+   - Uses DHT11 sensor to measure ambient temperature and humidity.
+   - Displays data on an LCD screen and updates the mobile app.
 
-Shows real-time sensor data on a character LCD display.
-Garage Module
-Password-Protected Access:
+4. **Flame Detection:**
+   - Incorporates a flame sensor to detect fire incidents.
+   - Triggers water pump to extinguish fire and sends alerts to the mobile app.
 
-Features a membrane keypad for secure access to the garage.
-Allows users to input a password to open the garage door.
-Fire Safety:
+5. **LCD Display:**
+   - Shows real-time sensor data on a character LCD display.
 
-Includes a flame sensor to detect fire incidents in the garage.
-Water Pump Control:
+### Garage Module
 
-Activates a water pump to extinguish fire in the garage.
-Components
-Earthquake Detection: MPU6050 Gyroscope
-Gas Leak Monitoring: MQ-4 Gas Detector
-Temperature and Humidity Sensing: DHT11 Sensor
-Flame Detection: Flame Sensor Module
-LCD Display: Character LCD 2x16 (Blue)
-Garage Access: Membrane Keypad 4x4
-Water Pump Control: Mini DC Water Pump 3-6V, 120L/h
-Secure Access: Arduino Uno SMD R3
-Garage Safety: IR 5mm Infrared Obstacle Avoidance Sensor
-Mobile App
-Kotlin Mobile App (Link to be added when available)
-How to Use
-Clone the Repository:
+1. **Password-Protected Access:**
+   - Features a membrane keypad for secure access to the garage.
+   - Allows users to input a password to open the garage door.
 
-bash
-Copy code
-git clone https://github.com/your-username/smart-townhouse.git
-Set Up Arduino IDE:
+2. **Fire Safety:**
+   - Includes a flame sensor to detect fire incidents in the garage.
 
-Open the Arduino IDE and install necessary libraries for sensors and modules.
-Connect Components:
+3. **Water Pump Control:**
+   - Activates a water pump to extinguish fire in the garage.
 
-Wire the components according to the provided schematic diagrams.
-Upload Code:
+## Components
 
-Upload the Arduino code to the ESP microcontrollers.
-Run the Kotlin App:
+- [Earthquake Detection: MPU6050 Gyroscope](https://lampatronics.com/product/gy-521-mpu6050-imu-3-axis-gyro-3-axis-accelerometer/)
+- [Gas Leak Monitoring: MQ-4 Gas Detector](https://lampatronics.com/product/mq-4-methane-natural-gas-sensor-module/)
+- [Temperature and Humidity Sensing: DHT11 Sensor](https://lampatronics.com/product/dht11-humidity-temperature-sensor-module/)
+- [Flame Detection: Flame Sensor Module](https://lampatronics.com/product/flame-sensor-module/)
+- [LCD Display: Character LCD 2x16 (Blue)](https://lampatronics.com/product/character-lcd-2x16-blue-with-soldering-pin-header/)
+- [Garage Access: Membrane Keypad 4x4](https://lampatronics.com/product/membrane-keypad-4x4/)
+- [Water Pump Control: Mini DC Water Pump 3-6V, 120L/h](https://lampatronics.com/product/water-pump-mini-dc-3-6v-120l-h/)
+- [Secure Access: Arduino Uno SMD R3](https://lampatronics.com/product/arduino-uno-smd-r3-without-cable/)
+- [Garage Safety: IR 5mm Infrared Obstacle Avoidance Sensor](https://lampatronics.com/product/ir-5mm-infrared-obstacle-avoidance-sensor-4pin-module/)
 
-Build and run the Kotlin app on your Android device.
-Explore Smart Townhouse:
+## Mobile App
 
-Access real-time data, control garage access, and receive alerts through the mobile app.
-Contributors
-Your Name
-Contributor 2
-Contributor 3
-License
-This project is licensed under the MIT License.
+- [Kotlin Mobile App](#) *(Link to be added when available)*
 
-Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
+## How to Use
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/smart-townhouse.git
