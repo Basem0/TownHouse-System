@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "517391784190",
+    "firebase_url": "https://z-fire-8bc3b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "z-fire-8bc3b",
+    "storage_bucket": "z-fire-8bc3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517391784190:android:5eba1ed4fcec116c77adaf",
+        "android_client_info": {
+          "package_name": "com.zkrallah.z_fire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk1dknDI5B5VCKKtFV66ITFMRM_c9kE0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
