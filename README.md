@@ -51,7 +51,7 @@ Welcome to the Smart Townhouse project! This project aims to create an intellige
 
 ## Mobile App
 
-- [Kotlin Mobile App]
+- Apk is available in the tags.
 
 ## How to Use
 1. **Set Up Arduino IDE:**
