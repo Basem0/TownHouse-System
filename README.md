@@ -72,5 +72,6 @@ Welcome to the Smart Townhouse project! This project aims to create an intellige
 
 ## Contributors
 - Ahmed Basem
+- Mohamed Zkrallah
 
 Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
