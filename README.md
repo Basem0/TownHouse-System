@@ -54,7 +54,26 @@ Welcome to the Smart Townhouse project! This project aims to create an intellige
 - [Kotlin Mobile App](#) *(Link to be added when available)*
 
 ## How to Use
+1. **Set Up Arduino IDE:**
+   - Open the Arduino IDE.
+   - Install necessary libraries for sensors and modules.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/smart-townhouse.git
+2. **Connect Components:**
+   - Wire the components according to the provided schematic diagrams.
+
+3. **Upload Code:**
+   - Upload the Arduino code to the ESP microcontrollers.
+
+4. **Run the Kotlin App:**
+   - Build and run the Kotlin app on your Android device.
+
+5. **Explore Smart Townhouse:**
+   - Access real-time data, control garage access, and receive alerts through the mobile app.
+
+## Contributors
+- Ahmed Basem
+
+## License
+This project is licensed under the MIT License.
+
+Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
