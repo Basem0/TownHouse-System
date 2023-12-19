@@ -73,7 +73,4 @@ Welcome to the Smart Townhouse project! This project aims to create an intellige
 ## Contributors
 - Ahmed Basem
 
-## License
-This project is licensed under the MIT License.
-
 Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
